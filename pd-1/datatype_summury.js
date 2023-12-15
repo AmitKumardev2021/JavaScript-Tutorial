@@ -34,3 +34,29 @@
 // const myFunction = function () {
 //   console.log("Hello Earth");
 // };
+
+// -----------------------------------
+// stack and heap memory
+
+// let yourName="Amit kumar";   // In this Variable is store in stack and when other variable request then it make copy.
+// let myNewName=yourName;
+// myNewName="Amit"            //so this is because other variable change name nothing change in original variable.
+
+// console.log(yourName);
+// console.log(myNewName);
+
+// let use1 = {
+//   //In this object is store in heap so any other object can only take  reference and if any change made to any child it will reflect in parent object also.
+// In simple any change will lead you original change to its reference
+//   userName: "Person-1",
+//   userAge: 28,
+//   UserPlace: "patna",
+// };
+
+// let use2 = use1;
+// use2.userAge = 30;
+
+// console.log(use1);
+// console.log(use2);
+
+
