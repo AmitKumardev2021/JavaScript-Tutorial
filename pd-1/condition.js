@@ -2,12 +2,12 @@
 
 // <,>,<=,>=,==,!=,===
 
-const userLoggedIn=true;
+// const userLoggedIn=true;
 
-if("2"==="2"){
+// if("2"==="2"){
     // console.log('executed');
 
-}
+// }
 // ----------------------------------------------------------------------------------------
 
 //falsy value
@@ -42,3 +42,22 @@ if("2"==="2"){
 
 //     console.log("Object is Not Empty");
 // }
+
+
+// ----------------------------------------------------------------------
+// nullish coalescing operator (??):null,undefined
+
+// let val1;
+//this is use when server has some issue to fetch data 
+// val1=5 ??10;
+// val1=null ??10;
+// console.log(val1);
+
+// ---------------------------------------------------------------------------
+// Ternary Operator
+// condition?true:false;
+
+// example
+// const iceCreamPrice=200;
+
+// iceCreamPrice >=300?console.log("iceCream price is high"):console.log("IceCreamPrice is low");;

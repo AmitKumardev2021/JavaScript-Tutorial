@@ -25,6 +25,6 @@
 // console.log(zipped);
 
 
-// for (let i = 0, j = 0; i || j <= 12; i, j++) {
-  // console.log(i,j);
+// for (let i = 0, j = 0; i && j <= 2; i, j++) {
+//   console.log(i,j);
 // }
